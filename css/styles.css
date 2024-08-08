@@ -23,14 +23,30 @@ ul {
   --imagem-avatar: url(../assets/avatar.png);
   --imagem-switch: url(../assets/moon-stars.svg);
   --cor-texto: white;
-  --cor-texto-links: var(--cor-fundo-links);
+  --cor-texto-links: rgb(255, 200, 0);
   --cor-texto-links-hover: rgb(255, 200, 0);
+  --cor-texto-links-footer-hover: rgb(255, 238, 0);
   --cor-fundo: rgba(255, 200, 0);
   --cor-fundo-links: rgb(255, 225, 255, 0.05);
   --cor-fundo-links-hover: rgb(225, 199, 0, 0.05);
   --cor-contornos: rgba(255, 255, 255, 0.5);
   --cor-contornos-links: rgba(255, 255, 255, 0.3);
   --cor-contornos-hover: rgb(255, 200, 0, 0.3);
+}
+.light {
+  --imagem-background: url(../assets/bg-mobile-light.jpg);
+  --imagem-avatar: url(../assets/avatar-light.png);
+  --imagem-switch: url(../assets/sun.svg);
+  --cor-texto: rgb(0, 0, 0);
+  --cor-texto-links: rgb(153, 75, 6);
+  --cor-texto-links-hover: rgb(63, 53, 8);
+  --cor-texto-links-footer-hover: rgb(84, 70, 6);
+  --cor-fundo: rgba(255, 200, 0);
+  --cor-fundo-links: rgba(155, 100, 0, 0.1);
+  --cor-fundo-links-hover: rgba(215, 185, 124, 0.5);
+  --cor-contornos: rgba(0, 0, 0, 0.3);
+  --cor-contornos-links: rgba(0, 0, 0, 0.2);
+  --cor-contornos-hover: rgb(0, 0, 0, 0.5);
 }
 
 /*Conteúdo*/
@@ -45,6 +61,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 0.75rem;
+  transition: color 0.5s ease;
 }
 
 footer a {
@@ -53,7 +70,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--cor-texto-links-hover);
+  color: var(--cor-texto-links-footer-hover);
 }
 
 #container {
@@ -79,7 +96,7 @@ footer a:hover {
   background-image: var(--imagem-avatar);
   background-position: center;
   background-size: cover;
-  border: 3px solid var(--cor-texto-links-hover);
+  border: 3px solid var(--cor-fundo);
   border-radius: 50%;
   width: 124px;
   height: 124px;
@@ -105,6 +122,13 @@ footer a:hover {
   left: 0;
   z-index: 01;
   transform: translateY(-50%);
+}
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+.light #profile span {
+  color: var(--cor-texto-links);
 }
 
 #switch span {
@@ -142,6 +166,7 @@ footer a:hover {
   flex-direction: column;
   padding: 24px;
   gap: 16px;
+  color: var(--cor-texto);
 }
 
 #links li {
