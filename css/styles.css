@@ -37,6 +37,19 @@ footer {
   font-size: 0.75rem;
 }
 
+footer a {
+  color: rgb(255, 200, 0);
+  font-weight: 700;
+}
+
+footer a:visited {
+  color: rgb(255, 240, 180);
+}
+
+footer a:hover {
+  color: rgb(255, 200, 150);
+}
+
 #container {
   width: 360px;
   margin: 56px auto;
@@ -45,26 +58,33 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  text-transform: uppercase;
 }
+#profile h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+#profile span {
+  color: rgb(255, 208, 0);
+  font-weight: 900;
+}
+
 #avatar {
   background-image: url(../assets/avatar.png);
   background-position: center;
   background-size: cover;
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgb(255, 200, 0);
   border-radius: 50%;
   width: 124px;
   height: 124px;
-  padding: 24px 0 8px 0;
-}
-#profile p {
-  padding: 0px 0 24px 0;
+  margin-bottom: 24px;
 }
 #switch {
   position: relative;
   width: 64px;
-  margin: 4px auto;
+  margin: 24px auto;
 }
+
 #switch button {
   width: 32px;
   height: 32px;
@@ -80,6 +100,7 @@ footer {
   z-index: 01;
   transform: translateY(-50%);
 }
+
 #switch span {
   display: block;
   width: 64px;
@@ -87,6 +108,25 @@ footer {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 25px;
+}
+
+#switch button:hover {
+  border: 1px solid rgb(255, 200, 0);
+  color: rgb(255, 200, 0);
+  transition-property: background-color, border;
+  transition-duration: 0.2s;
+}
+#switch button:hover + span {
+  background: rgba(225, 200, 0, 0.09);
+  border: 1px solid rgb(255, 200, 0, 0.5);
+  transition-duration: 0.2s;
+  transition-property: background-color;
+}
+
+.divisor {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 50%;
+  margin: 8px auto;
 }
 
 #links ul {
@@ -97,11 +137,23 @@ footer {
   padding: 24px;
   gap: 16px;
 }
+
 #links li {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 16px;
   border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition-duration: 0.5s;
+  transition-property: background-color;
+}
+
+#links li:hover,
+#socialLinks a:hover {
+  background: rgba(225, 200, 0, 0.03);
+  border: 1px solid rgb(255, 200, 0, 0.3);
+  color: rgb(255, 200, 0);
+  transition-property: background-color, border;
+  transition-duration: 0.5s;
 }
 #socialLinks {
   display: flex;
