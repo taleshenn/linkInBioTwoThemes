@@ -24,14 +24,16 @@ O design é minimalista e moderno, com uma paleta de cores escura e fontes de f�
 ## Deploy e Repo
 
 1. **Acesse e depois me diga o que achou**
-   Primeiro, faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
-
-   ```bash
-   git clone https://github.com/taleshenn/linkInBioTwoThemes.git
-
-   ## Copie e altere como preferir
 
    ```
+
+   ```
+
+- **Link in Bio V1:** . [https://link-in-bio-two-themes-2iyz1ofz4-tales-projects-6149a15d.vercel.app/](Deploy)
+
+  ```
+
+  ```
 
 2. **Clone o Repositório**
    Faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
