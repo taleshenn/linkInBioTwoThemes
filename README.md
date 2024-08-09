@@ -19,15 +19,13 @@ O design é minimalista e moderno, com uma paleta de cores escura e fontes de f�
 - **HTML:** Estrutura do site.
 - **CSS:** Estilização visual e troca de ícones e avatar
 - **JavaScript:** Simples interação do usuário para troca de tema.
-- **Ionicons:** Biblioteca de ícones para os links sociais. [https://ionic.io/ionicons](Ionicons_website)
+- **Ionicons:** Biblioteca de ícones para os links sociais. [Ionicons_website](https://ionic.io/ionicons)
 
 ## Deploy e Repo
 
 1. **Acesse e depois me diga o que achou**
 
-```
-- **Link in Bio V1:** . [https://link-in-bio-two-themes.vercel.app/](Deploy)
-```
+Acessar o [Deploy](https://link-in-bio-two-themes.vercel.app/)
 
 2. **Clone o Repositório**
    Faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
