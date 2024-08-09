@@ -21,6 +21,24 @@ O design é minimalista e moderno, com uma paleta de cores escura e fontes de f�
 - **JavaScript:** Simples interação do usuário para troca de tema.
 - **Ionicons:** Biblioteca de ícones para os links sociais. [https://ionic.io/ionicons](Ionicons_website)
 
+## Deploy e Repo
+
+1. **Acesse e depois me diga o que achou**
+   Primeiro, faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
+
+   ```bash
+   git clone https://github.com/taleshenn/linkInBioTwoThemes.git
+
+   ## Copie e altere como preferir
+
+   ```
+
+2. **Clone o Repositório**
+   Faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
+   ```bash
+   git clone https://github.com/taleshenn/linkInBioTwoThemes.git
+   ```
+
 ## Resumo do Código HTML
 
 - A estrutura é organizada em seções claras, facilitando a navegação e interação.
