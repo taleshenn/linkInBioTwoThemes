@@ -15,14 +15,19 @@
   <body>
     <div id="container">
       <header id="profile">
-        <a href="./"><div id="avatar"></div></a>
+        <div
+          id="avatar"
+          onclick="trocaAvatar()"
+          aria-label="Foto de Tales Henn, usando óculos barba e roupa preta."
+        ></div>
         <h1>Tales Henn</h1>
         <p>Design<span>Web</span>Foto</p>
-        <div id="switch" onclick="trocaTema()">
+        <div id="switch" onclick="trocaTema(),trocaAvatar()">
           <button></button>
           <span></span>
         </div>
       </header>
+
       <nav id="links">
         <ul>
           <li>
