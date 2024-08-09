@@ -30,9 +30,24 @@ if (temaSalvo) {
   ).matches;
   const prefereDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
+  // Aplicando a preferência do navegador
   if (prefereLight) {
     document.documentElement.classList.add("light");
   } else if (prefereDark) {
     document.documentElement.classList.remove("light");
+  } else {
+    // Como fallback, verificar a preferência do sistema operacional
+    const sistemaPrefereLight = window.matchMedia(
+      "(prefers-color-scheme: light)"
+    ).matches;
+    const sistemaPrefereDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+
+    if (sistemaPrefereLight) {
+      document.documentElement.classList.add("light");
+    } else if (sistemaPrefereDark) {
+      document.documentElement.classList.remove("light");
+    }
   }
 }
