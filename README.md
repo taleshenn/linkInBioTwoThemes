@@ -25,7 +25,7 @@ O design é minimalista e moderno, com uma paleta de cores escura e fontes de f�
 
 1. **Acesse e depois me diga o que achou**
 
-   Acessao o [Deploy](https://link-in-bio-two-themes.vercel.app/)
+   Acessar o [Deploy](https://link-in-bio-two-themes.vercel.app/)
 
 2. **Clone o Repositório**
    Faça um clone do repositório para sua máquina local. Você pode usar o comando Git:
