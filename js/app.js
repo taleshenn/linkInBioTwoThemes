@@ -14,4 +14,16 @@ function trocaTema() {
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
   document.documentElement.classList.add(savedTheme);
+} else {
+  // Verifica a preferência do navegador
+  const prefersLight = window.matchMedia(
+    "(prefers-color-scheme: light)"
+  ).matches;
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (prefersLight) {
+    document.documentElement.classList.add("light");
+  } else if (prefersDark) {
+    document.documentElement.classList.remove("light");
+  }
 }
