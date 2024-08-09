@@ -80,7 +80,7 @@ footer a:hover {
 
 #container {
   width: 360px;
-  margin: 56px auto;
+  margin: 36px auto;
 }
 
 #profile {
@@ -109,6 +109,15 @@ footer a:hover {
   width: 124px;
   height: 124px;
   margin-bottom: 24px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.flip {
+  transform: rotateY(180deg);
 }
 
 #switch {
