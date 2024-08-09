@@ -1,4 +1,4 @@
-localStorage.clear();
+//localStorage.clear();
 console.log(
   "O sistema prefere o modo de cor:",
   window.matchMedia("(prefers-color-scheme: dark)").matches
