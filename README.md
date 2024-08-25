@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="projeto LinkInBio" src=".git/link-in-bio-cover.jpg" width="100%">
+</p>
+
 ## README.md
 
 ### Projeto Link in Bio (Agregador de links)
