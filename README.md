@@ -37,6 +37,7 @@ Acessar o [Deploy](https://link-in-bio-two-themes.vercel.app/)
    git clone https://github.com/taleshenn/linkInBioTwoThemes.git
    ```
 
+
 ## Resumo do Código HTML
 
 - A estrutura é organizada em seções claras, facilitando a navegação e interação.
