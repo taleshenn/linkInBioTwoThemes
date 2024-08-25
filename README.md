@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="projeto LinkInBio" src=".git/link-in-bio-cover.jpg" width="100%">
+  <img alt="projeto LinkInBio" src="readme-imgs/link-in-bio-cover.jpg" width="100%">
 </p>
 
 ## README.md
